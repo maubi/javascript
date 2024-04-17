@@ -15,7 +15,7 @@ let lanjut;
 do {
   console.log("-- APLIKASI HITUNG LUAS BANGUN DATAR --");
   console.log("===================================");
-  console.log("Silakan pilih menu dibawah:");
+  console.log("Silakan pilih menu di bawah:");
   console.log("1. Luas Persegi");
   console.log("2. Luas Persegi Panjang");
   console.log("3. Luas Lingkaran");
