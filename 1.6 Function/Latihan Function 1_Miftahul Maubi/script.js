@@ -15,14 +15,14 @@ let lanjut;
 do {
   console.log("-- APLIKASI HITUNG LUAS BANGUN DATAR --");
   console.log("===================================");
-  console.log("Silakan pilih menu di bawah:");
+  console.log("Silakan pilih menu di bawah :");
   console.log("1. Luas Persegi");
   console.log("2. Luas Persegi Panjang");
   console.log("3. Luas Lingkaran");
   console.log("4. Luas Segitiga");
   console.log("===================================");
 
-  const menu = prompt("Pilih Menu: ");
+  const menu = prompt("Pilih Menu : ");
   let s, p, l, r, a, t;
   switch (menu) {
     case "1":
