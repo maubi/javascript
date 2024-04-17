@@ -29,6 +29,7 @@ do {
       s = prompt("Masukkan Sisi : ");
       console.log("Sisi Persegi = " + s);
       console.log("Luas Persegi adalah = " + persegi(s));
+      console.log("");
       break;
     case "2":
       p = prompt("Masukkan Panjang : ");
@@ -36,11 +37,13 @@ do {
       console.log("Panjang Persegi Panjang  = " + p);
       console.log("Lebar Persegi Panjang  = " + l);
       console.log("Luas Persegi Panjang adalah = " + persegi_panjang(p, l));
+      console.log("");
       break;
     case "3":
       r = prompt("Masukkan Jari-jari : ");
       console.log("Jari-jari Lingkaran  = " + r);
       console.log("Luas Lingkaran adalah = " + lingkaran(r));
+      console.log("");
       break;
     case "4":
       a = prompt("Masukkan Alas : ");
@@ -48,6 +51,7 @@ do {
       console.log("Alas Segitiga  = " + a);
       console.log("Tinggi Segitiga  = " + t);
       console.log("Luas Segitiga adalah = " + segitiga(a, t));
+      console.log("");
       break;
     default:
       alert("Menu yang Anda pilih tidak tersedia");
