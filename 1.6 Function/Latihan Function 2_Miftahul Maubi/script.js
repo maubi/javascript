@@ -39,30 +39,30 @@ do {
       l = prompt("Masukkan Lebar : ");
       t1 = prompt("Masukkan Tinggi : ");
       console.log("Panjang Balok  = " + p);
-      console.log("Lebar Balok  = " + l);
-      console.log("Tinggi Balok  = " + t1);
+      console.log("Lebar Balok = " + l);
+      console.log("Tinggi Balok = " + t1);
       console.log("Volume Balok adalah = " + balok(p, l, t1));
       console.log("");
       break;
     case "3":
       r1 = prompt("Masukkan Jari-jari : ");
       t2 = prompt("Masukkan Tinggi : ");
-      console.log("Jari-jari Tabung  = " + r1);
-      console.log("Tinggi Tabung  = " + t2);
+      console.log("Jari-jari Tabung = " + r1);
+      console.log("Tinggi Tabung = " + t2);
       console.log("Volume Tabung adalah = " + tabung(r1, t2));
       console.log("");
       break;
     case "4":
       r2 = prompt("Masukkan Jari-jari : ");
-      console.log("Jari-jari Bola  = " + r2);
+      console.log("Jari-jari Bola = " + r2);
       console.log("Volume Bola adalah = " + bola(r2));
       console.log("");
       break;
     case "5":
       r3 = prompt("Masukkan Jari-jari : ");
       t3 = prompt("Masukkan Tinggi : ");
-      console.log("Jari-jari Kerucut  = " + r3);
-      console.log("Tinggi Kerucut  = " + t3);
+      console.log("Jari-jari Kerucut = " + r3);
+      console.log("Tinggi Kerucut = " + t3);
       console.log("Volume Kerucut adalah = " + kerucut(r3, t3));
       console.log("");
       break;
