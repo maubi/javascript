@@ -66,3 +66,5 @@ const bilbul = bilanganBulat.filter(function (e) {
 const bilbul2 = bilanganBulat.find(function (e) {
   return e > 5;
 });
+
+
